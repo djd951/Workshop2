@@ -1,0 +1,16 @@
+Q1) torrent create /Users/djoudi/Downloads/Chaton.jpeg
+
+Q2) cp /Users/djoudi/Downloads/Chaton.jpeg /Users/djoudi/Downloads/Partition1/Chaton.jpeg
+torrent create /Users/djoudi/Downloads/Partition1/Chaton.jpeg
+En exécutant la commande info partition1.torrent, on constate que l'image IPFS-command.png est contenue dans le torrent partition1.torrent, avec un hash différent.
+
+Q3) cp /Users/djoudi/Downloads/Partition1 /Users/djoudi/Downloads/Partition2
+torrent create /Users/djoudi/Downloads/Partition2
+Apparemment, le dossier partition1 semble absent, et seul l'image est présente dans le torrent. De plus, le hash est différent.
+
+
+Q1) QmeJaufp9seXCpHMFwxX53P3oRQW8Ny1DduCXAxebEwxv7
+
+Q2) The CID is different : QmPKRGW6BQ3i4Z4W4etVogYDRqoJRyFRCcD5FJrPKgNJPK
+
+Q3) Partition1 and Partition2  have the same CID.
